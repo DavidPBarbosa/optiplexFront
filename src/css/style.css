@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');/* Importa a fonte diretamente do google fonts */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, sans-serif;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+ 
+#pagina{
+    min-height: 100%;
+    max-width: 100%;
+    position: relative;
+}
+.principal{
+    width: 100%;
+    position: relative;
+    min-height: 100%;
+}
+.corpo{
+    padding-bottom: 200px;
+}
+
+
+header{
+    height: 150px;
+    display: flex;
+}
+.logo{
+    width: 15vw;
+    text-align: center;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+ 
+.btn-menu{
+    background-color: #7e7e7e; /*cor do fundo */
+    color: #ffffff; /*cor da letra*/
+    width: 120px; /*largura*/
+    height: 35px;
+    font-size: 18px; /*tamanho da fonte */
+    font-weight: bold; /* negrito ou espessura da fonte*/
+    border: none; /*borda */
+    border-radius: 12px; /*borda arredondada */
+    cursor: pointer; /*adiciona o cursor*/
+    box-shadow: 2px 2px 2px #817e7e; /*sombra*/
+    margin-right: 5vh;
+}
+ 
+.topo{
+    width: 75vw;
+    height: 150px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.menu{
+    background-color: #d3d3d3;
+    width: 75vw;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3%;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 60vw;
+}
+.menu ul li{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 800;
+}
+.menu ul a{
+    text-decoration: none;
+ 
+}
+.menu ul li:hover{/*quando passar o mause em cima*/
+    color: #ffffff;
+    transform: scale(1.2);
+}
+.btn-menu:hover{
+    transform: scale(0.9);
+}
+ 
+.carrossel{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+ 
+.carrossel img{
+    width: 90vw;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.estilo{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+ 
+.teste img{
+    width: 200PX;
+    height: 190PX;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.teste{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 0.5%;
+}
+ 
+
+ 
+h1{
+    margin-left: 2%;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 2%;
+}
+.imagemFut {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ 
+footer{
+    position: absolute;
+    width: 100%;
+    height: 380px;
+}
+
+.icones{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.caixaCon{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    align-items:end;
+    text-align: end;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.email{
+    width: 15%;
+    text-align: right;
+    padding-right: 5%;
+    
+}
+.pagamento{
+    /* background-color: red; */
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    height: 120px;
+}
+.pagamento p{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.caixa-ser{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    align-items: end;
+    font-size: 20px;
+    height: 6vw;
+    text-align: center;
+    gap: 25px;
+
+}
+
+.servicos{
+    background-color: #817e7e;
+    width: 160px;
+    height: 130px;
+    text-align: center;
+
+}
+.rodape{
+    border-style: solid;
+    border-width: 0.1vw;
+    border: color(black);
+    display: flex;
+    height: 25vh;
+    padding-bottom: 50px;
+}
+.rodape2{
+    border-style: solid;
+    border-width: 0.1vw;
+    border: color(black);
+    text-align: center;
+    font-weight: bold;
+}
+.selecionar{
+    background-color: #7e7e7e;
+    width: 13vw;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #7e7e7e;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+ 
+.selecionar2{
+    background-color: #7e7e7e;
+    width: 13vw;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #7e7e7e;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+ 
+.selecionar3{
+    background-color: #7e7e7e;
+    width: 13vw;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #7e7e7e;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+ 
+.selecionar4{
+    background-color: #7e7e7e;
+    width: 13vw;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #7e7e7e;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+ 
+.selecionar5{
+    background-color: #7e7e7e;
+    width: 13vw;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #7e7e7e;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+ 
+.selecionar6{
+    background-color: #7e7e7e;
+    width: 13vw;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #7e7e7e;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+ 
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2%;
+}
+ 
+.marcas{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+ 
+.teste img{
+    width: 200px;
+    height: 150px;
+}
