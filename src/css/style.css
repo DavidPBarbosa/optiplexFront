@@ -39,7 +39,12 @@ header{
     width: 100%;
     height: auto;
 }
- 
+.loginCarrinho img{
+    width: 60px;
+    height: 60px;
+}
+
+
 .btn-menu{
     background-color: #7e7e7e; /*cor do fundo */
     color: #ffffff; /*cor da letra*/
@@ -215,7 +220,7 @@ footer{
     border-width: 0.1vw;
     border: color(black);
     display: flex;
-    height: 25vh;
+    height: 40vh;
     padding-bottom: 50px;
 }
 .rodape2{
