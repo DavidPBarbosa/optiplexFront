@@ -39,11 +39,48 @@ header{
     width: 100%;
     height: auto;
 }
+.iconesBarra{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.iconesBarra img{
+    width: 20px;
+    height: 20px;
+}
 .loginCarrinho img{
     width: 60px;
     height: 60px;
 }
+.barraLupa{
+    width: 90%;
+    background-color: #f0f0f0;
+    height: 30px;
+    display: flex;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 27px;
+}
 
+.barraLupa img{
+    width: 30px;
+    height: 30px;
+}
+
+.loginCarrinho {
+    width: 20%;
+    text-align: center;
+}
+.barraLupa input{
+    padding: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    background: transparent;
+    width: 80%;
+    border: none;
+}
 
 .btn-menu{
     background-color: #7e7e7e; /*cor do fundo */
